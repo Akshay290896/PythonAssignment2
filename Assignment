@@ -1,0 +1,54 @@
+#Assignment1
+
+#List:
+Stocks_list = ['AAPL', 'WMT', 'IBM', 'MU', 'BA', 'AXP']
+MixedList = [23, "JavaScript", True, 34.9, 19]
+duplicateList = [3, "Python", "Python", "JavaScript"]
+
+
+
+#Tuple
+tuple_1 = (1, 2)
+tuple_2 = (3, 4)
+print(tuple_1 + tuple_2)
+
+my_tuple = (1, 7, 9, 8)
+print(my_tuple * 2)
+
+
+
+
+
+#Dict:
+my_information = {'name': 'Ram', 'age': 28, 'location': 'Bangalore'}
+
+#create a sequence of strings
+cities = ('Paris','Athens', 'Madrid')
+#create a single value
+continent = 'Europe'
+my_dictionary = dict.fromkeys(cities,continent)
+print(my_dictionary)
+
+
+#Sets:
+first_set = set(("Connor", 32, (1, 2, 3)))
+first_set
+Second_set = {"Apples", ("Bananas", "Oranges")}
+type(Second_set)
+
+
+
+#Assignment2
+#creating a text file with the command function "x"
+f = open("myfile.txt", "x")
+
+f.write("Hello There\n")
+
+f = open("myfile.txt", "r")
+print(f.read())
+
+f = open("myfile.txt", "a")
+f.write("\nNew Line")
+f.close()
+print(f.mode)
+
