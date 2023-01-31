@@ -1,0 +1,10 @@
+list=["hcl","wipro","linux"]
+print(list[0])
+print(list[1])
+print(list[2])
+
+tup=("hcl","akshay","wipro")
+print(tup[0:2])
+
+dic={"name":"aksh","film":"chennai"}
+print(dic['name'])
